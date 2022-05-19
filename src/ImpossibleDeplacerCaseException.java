@@ -1,0 +1,1 @@
+class ImpossibleDeplacerCaseException extends Exception{}
