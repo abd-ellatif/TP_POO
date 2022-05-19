@@ -5,7 +5,5 @@ class QstDef extends Question{
         this.col = Couleur.Bleu;
     }
 
-    public void Action(Joueur J){
-
-    };
+    public void Action(Joueur J){};
 }

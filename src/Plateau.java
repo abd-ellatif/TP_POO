@@ -30,7 +30,7 @@ public class Plateau {
     i = 0;
     while(i<5){
         if(plateau[n]==null){
-            plateau[n] = new QstDef("");
+            plateau[n] = new QstDef();
                 System.out.println(plateau[n].col.name() + "," + n);
                 i++;
             }

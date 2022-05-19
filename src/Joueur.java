@@ -6,9 +6,13 @@ class Joueur{
     public Joueur(String nom){
         this.nom = nom;
     }
-    public void Deplacer(int deplacement){}
-    public int Lancer(){
-        return 0;
+    public void Deplacer(int deplacement){
+        this.pos =+ deplacement;
+        if (this.pos > 99) this.pos = 99 - (this.pos - 99);
+    }
+    public int Lancer(Des dices){
+        dices.lancer();
+        return (dices.d1 + dices.d2);
     }
 
 }
