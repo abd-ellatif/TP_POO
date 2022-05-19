@@ -1,10 +1,11 @@
 class QstDef extends Question{
     String[] definitions;
 
-    public QstDef(String chemin){
+    public QstDef(){
         this.col = Couleur.Bleu;
     }
 
-    public void Action(/*Joueur J,String mot*/){
+    public void Action(Joueur J){
+
     };
 }
