@@ -18,7 +18,9 @@ class Partie{
                 this.SelectCase();
             } catch (ImpossibleDeplacerCaseException e) {}
             this.plateau.plateau[player.pos].Action(player);
+
         }
+
 
 
     }

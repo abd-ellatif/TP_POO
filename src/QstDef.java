@@ -1,9 +1,12 @@
 class QstDef extends Question{
-    String[] definitions;
+     protected String definition;
+     protected String mot;
+     protected int nbLettres;
 
     public QstDef(){
         this.col = Couleur.Bleu;
+
     }
 
-    public void Action(Joueur J){};
+    public void Action(Joueur J){}
 }
