@@ -1,4 +1,4 @@
 abstract class Question extends Case{
-    static String pathQst;
-    static String pathImg;
+    static String pathQst = "Qsts.txt";
+    static String pathImg = "QstsImgs.txt";
 }

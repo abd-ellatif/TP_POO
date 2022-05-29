@@ -1,8 +1,11 @@
-class Partie{
+import java.io.IOException;
+import java.io.Serializable;
+
+class Partie implements Serializable {
     protected Joueur player;
     protected Plateau plateau;
     protected Des dices;
-    public Partie(String nom){
+    public Partie(String nom) throws IOException {
         this.player = new Joueur(nom);
         this.plateau = new Plateau();
         this.dices = new Des();

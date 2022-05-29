@@ -1,8 +1,9 @@
+import java.io.IOException;
 import java.util.Random;
 
 public class Plateau {
     public Case[] plateau;
-    public Plateau(){
+    public Plateau() throws IOException {
     plateau = new Case[100];
     plateau[0] = new Depart();
     plateau[99] = new Fin();
